@@ -2,4 +2,4 @@
 # please open a PR for the `dockerhub/Dockerfile` in the same project.
 
 #FROM 3453445/helm-k8s-action:2.5
-FROM harbor.jenkins-x-viettel.iviet.com/system/koslib/ga-helm-eks:2.5
+FROM harbor.jenkins-x-viettel.iviet.com/sys/koslib/ga-helm-eks:2.5
