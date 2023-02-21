@@ -15,6 +15,6 @@ outputs:
     description: "Output returned by your Helm or kubectl command"
 runs:
   using: "docker"
-  image: "Dockerfile"
+  image: "docker://harbor.jenkins-x-viettel.iviet.com/sys/koslib/ga-helm-eks:2.5"
   args:
     - ${{ inputs.command }}
